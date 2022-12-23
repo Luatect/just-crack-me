@@ -15,7 +15,7 @@
     </div>
     <div class="max-w-4xl w-full">
       <CodeBlock language="lua" code={`
-      -- Version: Trail=1.1\nloadstring("https://raw.githubusercontent.com/Luatect/static/main/trail.lua")()
+      -- Version: Trail=1.1\nloadstring(game:HttpGet("https://raw.githubusercontent.com/Luatect/static/main/trail.lua"))()
       `} />
     </div>
     <footer class="mt-5">
