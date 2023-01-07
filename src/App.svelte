@@ -11,11 +11,11 @@
   <div class="h-full flex flex-col justify-center items-center">
     <div class="text-center mb-5">
       <h1 class="font-bold text-3xl">Luatect</h1>
-      <p>X-Luatect-Version: trail=1.1</p>
+      <p>X-Luatect-Version: trail=1.2</p>
     </div>
     <div class="max-w-4xl w-full">
       <CodeBlock language="lua" code={`
-      -- Version: Trail=1.1\nloadstring(game:HttpGet("https://raw.githubusercontent.com/Luatect/static/main/trail.lua"))()
+      -- Version: Trail=1.2\nloadstring(game:HttpGet("https://raw.githubusercontent.com/Luatect/static/main/trail.lua"))()
       `} />
     </div>
     <footer class="mt-5">
